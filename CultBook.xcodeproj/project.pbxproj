@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D73C1723221E0B7D0047BC2E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73C1722221E0B7D0047BC2E /* Book.swift */; };
+		D73C1729221E0D440047BC2E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73C1728221E0D440047BC2E /* Order.swift */; };
+		D73C172B221E0D9B0047BC2E /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73C172A221E0D9B0047BC2E /* Client.swift */; };
 		D7A15B4D221780780001DC16 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A15B4C221780780001DC16 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D73C1722221E0B7D0047BC2E /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		D73C1728221E0D440047BC2E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		D73C172A221E0D9B0047BC2E /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		D7A15B49221780780001DC16 /* CultBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CultBook; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A15B4C221780780001DC16 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +44,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D73C1724221E0CDD0047BC2E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D73C1722221E0B7D0047BC2E /* Book.swift */,
+				D73C1728221E0D440047BC2E /* Order.swift */,
+				D73C172A221E0D9B0047BC2E /* Client.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 		D7A15B40221780780001DC16 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +73,7 @@
 		D7A15B4B221780780001DC16 /* CultBook */ = {
 			isa = PBXGroup;
 			children = (
+				D73C1724221E0CDD0047BC2E /* Class */,
 				D7A15B4C221780780001DC16 /* main.swift */,
 			);
 			path = CultBook;
@@ -119,7 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D73C1723221E0B7D0047BC2E /* Book.swift in Sources */,
 				D7A15B4D221780780001DC16 /* main.swift in Sources */,
+				D73C172B221E0D9B0047BC2E /* Client.swift in Sources */,
+				D73C1729221E0D440047BC2E /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
